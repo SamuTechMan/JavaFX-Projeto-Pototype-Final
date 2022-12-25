@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="665.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.viewController">
+   <content>
+      <VBox prefHeight="481.0" prefWidth="654.0">
+         <children>
+            <MenuBar prefHeight="35.0" prefWidth="670.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Arquivo">
+                  <items>
+                    <MenuItem fx:id="telainicio" mnemonicParsing="false" onAction="#telainicio" onMenuValidation="#telainicio" text="Inicio" />
+                        <MenuItem fx:id="ArquivoSair" mnemonicParsing="false" onAction="#ArquivoSair" onMenuValidation="#ArquivoSair" text="Sair" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Matemática">
+                  <items>
+                    <MenuItem fx:id="MathSimples" mnemonicParsing="false" onAction="#MathSimples" onMenuValidation="#MathSimples" text="Calculadora Simples" />
+                        <MenuItem fx:id="MathBhaskara" mnemonicParsing="false" onAction="#MathBhaskara" onMenuValidation="#MathBhaskara" text="Calculadora Bhaskara" />
+                        <MenuItem fx:id="telaConversor" mnemonicParsing="false" onAction="#TelaConversor" onMenuValidation="#TelaConversor" text="Conversor De Temperatura" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Sobre">
+                  <items>
+                    <MenuItem fx:id="SobreVersao" mnemonicParsing="false" onAction="#SobreVersao" onMenuValidation="#SobreVersao" text="Versão" />
+                        <MenuItem fx:id="SobreQuemSomos" mnemonicParsing="false" onAction="#SobreQuemSomos" onMenuValidation="#SobreQuemSomos" text="Quem Somos" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ImageView fitHeight="488.0" fitWidth="660.0">
+               <image>
+                  <Image url="@../../bemvindo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="480.0" prefWidth="640.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea prefHeight="480.0" prefWidth="640.0" styleClass="label-dark" stylesheets="@DarkTheme.css" text="Product Version&#10;JavaFX Scene Builder 10.5.0&#10;&#10;Build Information&#10;Version 1.1.1&#10;Date: 2022-11-03&#10;Java Version: 1.8.0_171-b11, Oracle Corporation&#10;&#10;Dev&#10;João Rodolfo&#10;Samuel A.&#10;&#10;Designer&#10;Samuel A.&#10;João Rodolfo&#10;Thayssa&#10;Gustavo Bacca&#10;&#10;Copyright (c) 2022-2022, CleberTECH">
+         <font>
+            <Font name="Courier New Italic" size="20.0" />
+         </font>
+      </TextArea>
+   </children>
+</VBox>
